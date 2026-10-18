@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Keep real contracts and test documents out of the repo...
+*.pdf
+# ...but keep the fictional sample used by the app and the tests
+!samples/sample_contract.pdf
+
+# Downloaded datasets and evaluation output (CC BY 4.0 data: credit the source, do not redistribute)
+datasets/
+results/

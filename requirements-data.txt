@@ -1,0 +1,4 @@
+# Only needed to fetch laws and judgments from Open India Law (fetch_open_india_law.py)
+-r requirements.txt
+datasets
+fpdf2
